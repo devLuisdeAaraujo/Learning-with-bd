@@ -53,8 +53,11 @@ Neste tela você conseguirá fazer o cadastro na página: Cadastrando seu nome d
 
 ## -PASSO 2: Redirecionamento para verificação e-mail:
 
-Você será redirecionado automáticamente para a página de validação, o qual vai ser enviado um e-mail no própio cadastrado, após isso faça a verificação de acordo com o código enviado.*CÓDIGO NÃO É VALIDADO PELO BANCO DE DADOS* Preferi utilizando nessa versão , apenas pelo metódo.
-Podendo pedir o reenviamento desse código, o qual será diferente.
+Após o cadastro, entrará para a página de validação.
+```bash
+streamlit run token_email.py
+```
+Nela um código no e-mail cadastrado será enviado, e adicione esse código para verificar a veracidade.
 
 ## -PASSO 3: Realizando login:
 Após a validação você pode fechar o web já aberto no seu terminal e reabrir usando
