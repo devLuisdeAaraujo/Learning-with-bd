@@ -33,7 +33,7 @@ class Email_token:
             elif value_put != st.session_state.validacao_code:
                 st.warning(f'Código errado! Código esperado: {st.session_state.validacao_code}')  # Só pra debug
             else:
-                st.success("E-mail verificado com sucesso! Redirecionando para o login...")
+                st.success("E-mail verificado com sucesso! ")
                 sleep(2.5)
                 
 if __name__ == "__main__":
