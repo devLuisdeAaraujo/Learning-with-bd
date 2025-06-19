@@ -66,13 +66,14 @@ Nele fará o login com NOME ou E-MAIL ou CPF,  já cadastrado no Banco de dados,
 Caso errar em algo aparecerá a tela.
 Se realizar o login corretamente, aparecerá **login concluído com sucesso**.
 
-##Observações:
+## -Observações:
 
 -O envio de e-mails está configurado inicialmente para Gmail, mas pode ser adaptado para outros servidores.
 -As senhas são **criptografadas** antes de serem armazenadas, aumentando a segurança do sistema.
 -Caso queira testar com outro e-mail, é necessário alterar as configurações de **SMTP** no código.
 
-##Contate-me:
+## -Contate-me:
+
 **E-mail**
 ```bash
 E-mail: luis.araujo.sesisenaisp@gmail.com
